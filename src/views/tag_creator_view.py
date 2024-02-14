@@ -12,4 +12,4 @@ class TagCreatorView:
         formatted_response = tag_creator_controller.create(product_code)
 
         return HttpResponse(status_code=200, body=formatted_response)
-    
+   
