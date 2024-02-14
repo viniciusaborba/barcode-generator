@@ -18,5 +18,4 @@ def create_tags():
     except Exception as exception:
         response = handle_errors(exception)
 
-
     return jsonify(response.body), response.status_code
